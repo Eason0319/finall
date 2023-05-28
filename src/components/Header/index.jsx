@@ -29,9 +29,6 @@ export default function Header({ title, slogan }) {
                     </p>
 
                 </div>
-
-
-                <hr className={styles.hrHeaderLine} />
                 <NavBar open={isOnTouch} onClose={() => setIsOnTouch(false)} />
             </div>
             <div className={styles.iconWrap}>

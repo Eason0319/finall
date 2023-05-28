@@ -28,8 +28,8 @@ function Product() {
          </Helmet>
          <Header
             className="layoutHeader"
-            title="Product Detail"
-            slogan="An example made by Vite."
+            title="產品細節"
+            slogan="讓你越買越生氣"
          />
          <div className="layoutContent container">
             <ProductDetail product={product} />
